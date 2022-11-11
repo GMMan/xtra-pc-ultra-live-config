@@ -2,4 +2,4 @@ b43-fwcutter
 firmware-b43-installer
 firmware-b43legacy-installer
 firmware-realtek
-broadcom-sta-dkms
+#broadcom-sta-dkms  # Current version 6.30.223.271-17 in bullseye is broken
