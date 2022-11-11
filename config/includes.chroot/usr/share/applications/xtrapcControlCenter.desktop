@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Xtra-PC Control Center
+Comment=Xtra-PC Applications and Tools To Get The Most Out Of Your Xtra-PC
+Categories=XtraPC
+Exec=sh -c "java -jar /opt/xtra-pc/XtrapcControlCenter.jar"
+Icon=x-icon
+Terminal=false
+Type=Application

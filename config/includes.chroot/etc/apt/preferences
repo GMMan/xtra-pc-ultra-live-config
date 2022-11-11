@@ -1,0 +1,23 @@
+Package: *
+Pin: release a=bullseye
+Pin-Priority: 500
+
+Package: linux-image-amd64
+Pin: release a=bullseye-backports
+Pin-Priority: 1000
+
+Package: linux-headers-amd64
+Pin: release a=bullseye-backports
+Pin-Priority: 1000
+
+Package: firmware-*
+Pin: release a=bullseye-backports
+Pin-Priority: 1000
+
+Package: bluez-firmware
+Pin: release a=bullseye-backports
+Pin-Priority: 1000
+
+Package: *
+Pin: release a=bullseye-backports
+Pin-Priority: 100

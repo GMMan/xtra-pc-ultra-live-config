@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Default theme for Xtra-PC
+Description=Default theme for Xtra-PC
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/xtrapc
+ScriptFile=/usr/share/plymouth/themes/xtrapc/xtrapc.script

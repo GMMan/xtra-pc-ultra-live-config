@@ -1,0 +1,19 @@
+<background>
+  <static>
+    <duration>8640000.0</duration>
+    <file>
+      <size width="800" height="600">/usr/share/desktop-base/xtrapc-theme/wallpaper/contents/images/800x600.png</size>
+      <size width="1024" height="768">/usr/share/desktop-base/xtrapc-theme/wallpaper/contents/images/1024x768.png</size>
+      <size width="1280" height="1024">/usr/share/desktop-base/xtrapc-theme/wallpaper/contents/images/1280x1024.png</size>
+      <size width="1600" height="900">/usr/share/desktop-base/xtrapc-theme/wallpaper/contents/images/1600x900.png</size>
+      <size width="1600" height="1200">/usr/share/desktop-base/xtrapc-theme/wallpaper/contents/images/1600x1200.png</size>
+      <size width="1920" height="1080">/usr/share/desktop-base/xtrapc-theme/wallpaper/contents/images/1920x1080.png</size>
+      <size width="1920" height="1200">/usr/share/desktop-base/xtrapc-theme/wallpaper/contents/images/1920x1200.png</size>
+      <size width="2560" height="1080">/usr/share/desktop-base/xtrapc-theme/wallpaper/contents/images/2560x1080.png</size>
+      <size width="2560" height="1440">/usr/share/desktop-base/xtrapc-theme/wallpaper/contents/images/2560x1440.png</size>
+      <size width="2560" height="1600">/usr/share/desktop-base/xtrapc-theme/wallpaper/contents/images/2560x1600.png</size>
+      <size width="3840" height="2160">/usr/share/desktop-base/xtrapc-theme/wallpaper/contents/images/3840x2160.png</size>
+    </file>
+  </static>
+</background>
+

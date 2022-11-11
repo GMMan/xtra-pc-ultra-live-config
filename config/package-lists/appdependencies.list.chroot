@@ -1,0 +1,7 @@
+# Needed for Chrome
+fonts-liberation
+
+# Needed for Zoom
+libegl1-mesa
+libgl1-mesa-glx
+libxcb-xtest0

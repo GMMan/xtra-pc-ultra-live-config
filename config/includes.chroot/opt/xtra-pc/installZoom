@@ -1,0 +1,6 @@
+#!/bin/sh
+
+apt install -y /home/$SUDO_USER/zoom_amd64.deb
+
+# Workaround for applications menu extension since installing via apt does not update the menu right away like dpkg
+dpkg -i /home/$SUDO_USER/zoom_amd64.deb

@@ -1,0 +1,29 @@
+#!/bin/sh
+
+set -e
+
+# change desktop-them to xtrapc
+update-alternatives --install /usr/share/desktop-base/active-theme desktop-theme /usr/share/desktop-base/xtrapc-theme 100
+update-alternatives --install /usr/share/images/vendor-logos vendor-logos /usr/share/desktop-base/xtrapc-logos 100 \
+  --slave /usr/share/icons/vendor/64x64/emblems/emblem-vendor.png emblem-vendor-64 /usr/share/icons/xtrapc-icons/64x64/emblems/emblem-xtrapc.png \
+  --slave /usr/share/icons/vendor/64x64/emblems/emblem-vendor-symbolic.png emblem-vendor-symbolic-64 /usr/share/icons/xtrapc-icons/64x64/emblems/emblem-xtrapc-symbolic.png \
+  --slave /usr/share/icons/vendor/64x64/emblems/emblem-vendor-white.png emblem-vendor-white-64 /usr/share/icons/xtrapc-icons/64x64/emblems/emblem-xtrapc-white.png \
+  --slave /usr/share/icons/vendor/128x128/emblems/emblem-vendor.png emblem-vendor-128 /usr/share/icons/xtrapc-icons/128x128/emblems/emblem-xtrapc.png \
+  --slave /usr/share/icons/vendor/128x128/emblems/emblem-vendor-symbolic.png emblem-vendor-symbolic-128 /usr/share/icons/xtrapc-icons/128x128/emblems/emblem-xtrapc-symbolic.png \
+  --slave /usr/share/icons/vendor/128x128/emblems/emblem-vendor-white.png emblem-vendor-white-128 /usr/share/icons/xtrapc-icons/128x128/emblems/emblem-xtrapc-white.png \
+  --slave /usr/share/icons/vendor/256x256/emblems/emblem-vendor.png emblem-vendor-256 /usr/share/icons/xtrapc-icons/256x256/emblems/emblem-xtrapc.png \
+  --slave /usr/share/icons/vendor/256x256/emblems/emblem-vendor-symbolic.png emblem-vendor-symbolic-256 /usr/share/icons/xtrapc-icons/256x256/emblems/emblem-xtrapc-symbolic.png \
+  --slave /usr/share/icons/vendor/256x256/emblems/emblem-vendor-white.png emblem-vendor-white-256 /usr/share/icons/xtrapc-icons/256x256/emblems/emblem-xtrapc-white.png \
+  --slave /usr/share/icons/vendor/scalable/emblems/emblem-vendor.svg emblem-vendor-scalable /usr/share/icons/xtrapc-icons/scalable/emblems/emblem-xtrapc.svg \
+  --slave /usr/share/icons/vendor/scalable/emblems/emblem-vendor-symbolic.svg emblem-vendor-symbolic-scalable /usr/share/icons/xtrapc-icons/scalable/emblems/emblem-xtrapc-symbolic.svg \
+  --slave /usr/share/icons/vendor/scalable/emblems/emblem-vendor-white.svg emblem-vendor-white-scalable /usr/share/icons/xtrapc-icons/scalable/emblems/emblem-xtrapc-white.svg
+
+# Set plymouth theme
+/usr/sbin/plymouth-set-default-theme xtrapc
+
+# Remove unwanted apps
+#apt -y purge lilyterm
+apt -y purge debian-reference-common
+apt -y purge transmission-common
+apt -y purge hdate-applet
+apt -y purge mlterm-common

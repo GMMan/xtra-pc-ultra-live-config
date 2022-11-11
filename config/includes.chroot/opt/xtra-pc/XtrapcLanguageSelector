@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -jar /opt/xtra-pc/XtrapcLanguageSelector-1.0.jar

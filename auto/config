@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+	--clean \
+	--ignore-system-defaults \
+	--mode debian \
+        --distribution bullseye \
+        --archive-areas "main contrib non-free" \
+        --backports true \
+	--debian-installer live \
+	--linux-packages "linux-image linux-headers" \
+	--source "${_SOURCE}" \
+"${@}"

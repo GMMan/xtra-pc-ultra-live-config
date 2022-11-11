@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Xtra-PC Initial Setup
+Comment=Xtra-PC Initial Setup
+Categories=GNOME;Utility;
+Exec=sh -c "sudo /opt/xtra-pc/initsetup.sh"
+Terminal=false
+Type=Application
+NoDisplay=true

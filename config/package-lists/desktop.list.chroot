@@ -1,0 +1,9 @@
+task-gnome-desktop
+plymouth
+plymouth-x11
+gstreamer1.0-vaapi
+i965-va-driver
+task-laptop
+bash-completion
+cups
+printer-driver-all

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Xtra-PC Initial Screen Brightness Setup
+Comment=Xtra-PC Initial Screen Brightness Setup
+Categories=XtraPC
+Exec=/opt/xtra-pc/screenBrightnesInitialAdjust.sh
+Icon=x-icon
+Terminal=true
+Type=Application
+#NoDisplay=true
