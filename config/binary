@@ -30,15 +30,6 @@ LB_CHECKSUMS="sha256 md5"
 # Set compression
 LB_COMPRESSION="none"
 
-# Support dm-verity on rootfs
-LB_DM_VERITY=""
-
-# Support FEC on dm-verity rootfs
-LB_DM_VERITY_FEC_ROOTS=""
-
-# Set sign script for roothash for dm-verity rootfs
-LB_DM_VERITY_SIGN=""
-
 # Set zsync
 LB_ZSYNC="true"
 
