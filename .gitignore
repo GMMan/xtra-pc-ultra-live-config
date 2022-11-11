@@ -1,0 +1,7 @@
+.build
+binary
+binary.*
+cache
+chroot
+chroot.*
+live-image-*
