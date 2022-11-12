@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Xtra-PC Initial User Customization
+Comment=Customizes user settings for Xtra-PC experience
+Categories=XtraPC
+Exec=/opt/xtra-pc/user_customization.sh
+Icon=x-icon
+Terminal=false
+Type=Application
+NoDisplay=true
