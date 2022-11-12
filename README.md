@@ -28,3 +28,11 @@ licensed under the GNU General Public License v2, you should be able to request
 it from Prairie IT, the original maker of Xtra-PC. Please go
 [here](https://www.xtra-pc.com/pages/support-xtra-pc-ultra) and click on the
 "View Source Code" button for correspondence details.
+
+Additional notes
+----------------
+- Because `GRUB_DISTRIBUTOR` has been modified, the EFI bootloaders are installed to an incompatible location. Run
+  ```sh
+  grub-install --no-nvram --force-extra-removable --bootloader-id=debian /boot/efi
+  ```
+  after GRUB updates to update the EFI bootloader.
