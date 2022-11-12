@@ -7,6 +7,11 @@ enhanced to automatically configure additional differences between a base
 install from this configuration and the actual product. The original source CD
 can be found on [Internet Archive](https://archive.org/details/xtra-pc-ultra-source).
 
+This branch removes most of the branding, and allow you to customize the
+installation more, but retains the desktop configuration and the custom apps
+(because I think they're neat). Note auto-login is not enabled due to
+non-static user name.
+
 Please note that this repo does not contain the FileRez package, nor the
 Windows launcher. It should otherwise produce a functionally identical
 installation to the version of the product built in June 2022.
