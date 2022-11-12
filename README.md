@@ -4,7 +4,8 @@ Xtra-PC Ultra Debian Live Configuration
 This is a Debian Live configuration for creating installation media for Xtra-PC
 Ultra. This config is based on the source CD received in October 2022, and
 enhanced to automatically configure additional differences between a base
-install from this configuration and the actual product.
+install from this configuration and the actual product. The original source CD
+can be found on [Internet Archive](https://archive.org/details/xtra-pc-ultra-source).
 
 Please note that this repo does not contain the FileRez package, nor the
 Windows launcher. It should otherwise produce a functionally identical
@@ -15,6 +16,10 @@ File permissions
 Please note files in `config/includes.chroot` should have permissions produced
 using `umask 0022`, aside from the contents of `/etc/sudoers.d`, which should
 have permission (not umask) `440`.
+
+Build instructions
+------------------
+Please see build instructions on the [repo's wiki](https://github.com/GMMan/xtra-pc-ultra-live-config/wiki/Build-instructions).
 
 Java programs source
 --------------------
