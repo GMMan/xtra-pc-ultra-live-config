@@ -3,6 +3,8 @@
         "Homepage": {
             "URL": "https://www.xtra-pc.com/pages/support",
             "StartPage": "homepage"
-        }
+        },
+        "OverrideFirstRunPage": "",
+        "OverridePostUpdatePage": ""
     }
 }
