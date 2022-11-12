@@ -1,0 +1,7 @@
+ALL ALL=NOPASSWD: /opt/xtra-pc/initsetup.sh
+ALL ALL=NOPASSWD: /opt/xtra-pc/XtrapcSupportTicket
+ALL ALL=NOPASSWD: /opt/xtra-pc/installChrome
+ALL ALL=NOPASSWD: /opt/xtra-pc/installZoom
+ALL ALL=NOPASSWD: /opt/xtra-pc/installSkype
+ALL ALL=NOPASSWD: /opt/xtra-pc/installDropbox
+ALL ALL=NOPASSWD: /opt/xtra-pc/XtrapcLanguageSelector
